@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<employee empNo='102' name='Krishna'>
+    <employee1 empNo='101' name='Rama'></employee1>
+</employee>

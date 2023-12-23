@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee>
+    <empNo>1001</empNo>
+    <name>rama</name>
+    <salary>9000</salary>
+</employee>

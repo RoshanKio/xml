@@ -1,0 +1,3 @@
+<!ELEMENT book (book-name, title)>
+<!ELEMENT book-name (#PCDATA)>
+<!ELEMENT title (#PCDATA)>

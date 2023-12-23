@@ -1,0 +1,6 @@
+<!DOCTYPE employee SYSTEM "C://Users/katuw/Desktop/XML/Defining_XML_functionality/DTD/External_DTD/Private_DTD/Demo1/employee.dtd">
+<employee>
+    <empNo>101</empNo>
+    <name>Sathish</name>
+    <salary>12000</salary>
+</employee>
