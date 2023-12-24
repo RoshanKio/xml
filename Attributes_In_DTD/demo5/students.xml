@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+<!ELEMENT students (student+)>
+<!ELEMENT student EMPTY>
+<!ATTLIST student sid ID #REQUIRED>
+<!ATTLIST student sname CDATA #REQUIRED>
+]>
+
+<students>
+    <student sid="NIT101" sname="ajay"/>
+    <student sid="NIT102" sname="vijay"/>
+</students>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "C://Users/katuw/Desktop/XML/Attributes_In_DTD/demo2/student.dtd">
+<students>
+    <student studentid="101" studentcourse="c"/>
+    <student studentid="102" studentname="raja"/>
+    <student studentid="103" studentcourse="java" studentfee="1000"/>
+</students>

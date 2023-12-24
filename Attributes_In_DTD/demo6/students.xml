@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+<!ELEMENT students (course*, student*)>
+<!ELEMENT course EMPTY> 
+<!ATTLIST course cid ID #REQUIRED>
+<!ATTLIST course cname CDATA #REQUIRED>
+<!ATTLIST course cfee CDATA  #REQUIRED>
+<!ELEMENT student EMPTY>
+<!ATTLIST student sid ID #REQUIRED>
+<!ATTLIST student sname CDATA #REQUIRED>
+<!ATTLIST student scourse IDREF #REQUIRED>
+]>
+
+<students>
+    <course cid="CJ201" cname="corejava" cfee="500"/>
+    <course cid="AJ202" cname="advjava" cfee="1500"/>
+    <course cid="S203" cname="spring" cfee="750"/>
+    <student sid="NIT101" sname="rama" scourse="CJ201"/>
+    <student sid="NIT102" sname="raja" scourse="AJ202"/>
+</students>
+

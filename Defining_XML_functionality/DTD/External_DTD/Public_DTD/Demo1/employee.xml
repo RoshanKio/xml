@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE employee PUBLIC "-//nareshit//1.0//EN" "C://Users/katuw/Desktop/XML/Defining_XML_functionality/DTD/External_DTD/Public_DTD/Demo1/employee.dtd">
 <employee>
     <empNo>101</empNo>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "C://Users/katuw/Desktop/XML/Attributes_In_DTD/demo1">
+<employees>
+    <employee empno="101" name="ajay" salary="1200"></employee>
+    <employee empno="102" name="vijay" salary="1300"></employee>
+</employees>
