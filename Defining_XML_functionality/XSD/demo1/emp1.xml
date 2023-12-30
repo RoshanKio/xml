@@ -1,0 +1,13 @@
+<employees xmlns="http://www.my.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:SchemaLocation="http://www.my.com C:\Users\katuw\Desktop\XML\Defining_XML_functionality\XSD\demo1\emp.xsd">
+
+    <employee>
+
+        <empNo>101</empNo>
+        <name>Satish</name>
+        <salary>12000</salary>
+
+    </employee>
+
+</employees>

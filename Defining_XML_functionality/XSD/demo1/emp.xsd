@@ -1,0 +1,32 @@
+<schema targetNamespace="http://www.my.com"
+xmlns="http://www.w3.org/2001/XMLSchema">
+
+    <element name="employees">
+
+        <complexType>
+
+            <sequence>
+
+                <element name="employee">
+                    
+                    <complexType>
+
+                        <sequence>
+
+                            <element name="empNo" type="int"/>
+                            <element name="name" type="string"/>
+                            <element name="salary" type="decimal"/>
+
+                        </sequence>
+
+                    </complexType>
+
+                </element>
+
+            </sequence>
+
+        </complexType>
+
+    </element>
+
+</schema>

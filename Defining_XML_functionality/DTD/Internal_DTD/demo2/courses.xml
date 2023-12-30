@@ -2,5 +2,10 @@
 
 <!DOCTYPE courses [<!ENTITY nit "Nareshit">
 <!ELEMENT courses (course, inst)*>
-<!ELEMENT>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT inst (#PCDATA)>
 ]>
+<courses>
+    <course>java</course>
+    <inst>&nit;</inst>
+</courses>
