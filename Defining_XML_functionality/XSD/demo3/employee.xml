@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<employees xmlns="http://www.empinfo.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.e,pinfo.com C:\Users\katuw\Desktop\XML\Defining_XML_functionality\XSD\demo3\my.xsd">
+
+    <employee>
+
+        <empNo>101</empNo>
+
+        <name>raja</name>
+
+        <salary>12000</salary>
+
+
+    </employee>
+
+
+</employees>

@@ -1,0 +1,45 @@
+<schema targetNamespace="http://empinfo.com" xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <element name="employees">
+
+        <complexType>
+
+            <sequence>
+
+                <element name="employee" minOccurs="1" maxOccur="unbounded">
+
+                    <complexType>
+
+                        <sequence>
+
+                            <element name="empNo" type="int"/>
+
+                            <element name="name" type="string"/>
+
+                            <element name="salary">
+
+                                <simpleType>
+
+                                    <restriction base="decimal">
+
+                                        <minInclusive value="10000"/>
+
+                                        <maxInclusive value="90000"/>
+
+                                    </restriction>
+
+                                </simpleType>
+
+                        </sequence>
+
+                    </complexType>
+
+                </element>
+
+            </sequence>
+
+        </complexType>
+
+    </element>
+
+</schema>
